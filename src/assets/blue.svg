@@ -1,0 +1,21 @@
+<svg width="34.078125" height="23.367188" viewBox="0 0 34.0781 23.3672" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="Payment Method" rx="-0.500000" width="33.077274" height="22.367275" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Payment Method" rx="-0.243409" width="33.590458" height="22.880457" transform="translate(0.243409 0.243409)" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="BASE" rx="2.920909" width="34.077274" height="23.367275" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="BASE" x="0.242188" y="0.243652" rx="2.920909" width="33.590458" height="22.880457" stroke="#EAEBED" stroke-opacity="1.000000" stroke-width="0.486818"/>
+	<mask id="mask_6_11499" fill="white">
+		<path id="Left" d="M6.27734 11.8071C6.27734 8.09521 9.25 5.08594 12.9219 5.08594C16.5898 5.08594 19.5664 8.09521 19.5664 11.8071C19.5664 15.519 16.5898 18.5278 12.9219 18.5278C9.25 18.5278 6.27734 15.519 6.27734 11.8071Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<path id="Left" d="M6.27734 11.8071C6.27734 8.09521 9.25 5.08594 12.9219 5.08594C16.5898 5.08594 19.5664 8.09521 19.5664 11.8071C19.5664 15.519 16.5898 18.5278 12.9219 18.5278C9.25 18.5278 6.27734 15.519 6.27734 11.8071Z" clip-rule="evenodd" fill="#ED0006" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_6_11499)"/>
+	<path id="Left" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
+	<mask id="mask_6_11501" fill="white">
+		<path id="Right" d="M14.8984 11.8071C14.8984 8.09521 17.8711 5.08594 21.543 5.08594C25.2109 5.08594 28.1875 8.09521 28.1875 11.8071C28.1875 15.519 25.2109 18.5278 21.543 18.5278C17.8711 18.5278 14.8984 15.519 14.8984 11.8071Z" clip-rule="evenodd" fill="" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<path id="Right" d="M14.8984 11.8071C14.8984 8.09521 17.8711 5.08594 21.543 5.08594C25.2109 5.08594 28.1875 8.09521 28.1875 11.8071C28.1875 15.519 25.2109 18.5278 21.543 18.5278C17.8711 18.5278 14.8984 15.519 14.8984 11.8071Z" clip-rule="evenodd" fill="#0099DF" fill-opacity="1.000000" fill-rule="evenodd" mask="url(#mask_6_11501)"/>
+	<path id="Right" d="" fill="#979797" fill-opacity="0.000000" fill-rule="nonzero"/>
+	<path id="Middle" d="M17.2383 6.69141C18.6641 7.92432 19.5703 9.7583 19.5703 11.8066C19.5703 13.855 18.6641 15.6895 17.2383 16.9224C15.8086 15.6895 14.9023 13.855 14.9023 11.8066C14.9023 9.7583 15.8086 7.92432 17.2383 6.69141Z" clip-rule="evenodd" fill="#6C6BBD" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

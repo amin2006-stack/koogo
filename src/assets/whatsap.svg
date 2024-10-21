@@ -1,0 +1,15 @@
+<svg width="12.000000" height="12.000000" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip6_7572">
+			<rect id="003-whatsapp 1" rx="-0.500000" width="11.000000" height="11.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="003-whatsapp 1" rx="-0.500000" width="11.000000" height="11.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip6_7572)">
+		<path id="Vector" d="M5.99 0C2.68 0 0 2.68 0 6C0 7.14 0.33 8.27 0.94 9.23L0.01 11.65C-0.04 11.78 0.03 11.93 0.16 11.98C0.18 11.99 0.21 11.99 0.25 11.99C0.27 11.99 0.3 11.99 0.33 11.98L2.83 11.09C5.64 12.84 9.34 11.98 11.09 9.17C12.84 6.35 11.98 2.66 9.17 0.91C8.21 0.31 7.12 0 5.99 0Z" fill="#5D6C7B" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M8.85 7.02C8.85 7.02 8.24 6.72 7.86 6.52C7.42 6.3 6.91 6.71 6.67 6.95C6.3 6.81 5.96 6.59 5.67 6.32C5.39 6.03 5.18 5.69 5.03 5.31C5.27 5.07 5.69 4.56 5.47 4.13C5.27 3.75 4.97 3.13 4.97 3.13C4.92 3.05 4.84 3 4.75 3L4.25 3C3.52 3.12 2.99 3.76 3 4.5C3 5.28 3.93 6.79 4.57 7.42C5.2 8.05 6.71 8.99 7.49 8.99C8.23 9 8.87 8.47 8.99 7.74L8.99 7.24C8.99 7.15 8.94 7.06 8.85 7.02Z" fill="#F7F7F7" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
