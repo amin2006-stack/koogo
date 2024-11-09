@@ -6,7 +6,9 @@ import telegramImg from "../../assets/telegram.svg";
 import viberImg from "../../assets/viber.svg";
 import kugoo from "../../assets/Kugoo.svg";
 import group from "../../assets/group.svg";
-import corzin from "../../assets/corzin.svg";
+import scales from "./Vector.svg"
+import chosenOne from "./Vector (1).svg"
+import basket from "./Vector (2).svg";
 import percent from "../../assets/percent.svg";
 import search from "../../assets/search.svg";
 
@@ -14,7 +16,6 @@ const Header = () => {
     return (
         <header className="header">
             <div className="container">
-                {/* Верхняя часть заголовка */}
                 <div className="header__top">
                     <nav className="top__left">
                         <a href="src/components/Header#" className="top__link">Сервис</a>
@@ -24,39 +25,41 @@ const Header = () => {
 
                     <div className="top__img">
                         <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer">
-                            <img className="sot__img" src={whatsappImg} alt="WhatsApp" />
+                            <img className="sot__img" src={whatsappImg} alt="WhatsApp"/>
                         </a>
                         <a href="https://t.me/your-number" target="_blank" rel="noopener noreferrer">
-                            <img className="sot__img" src={telegramImg} alt="Telegram" />
+                            <img className="sot__img" src={telegramImg} alt="Telegram"/>
                         </a>
                         <a href="viber://call?number=your-number" target="_blank" rel="noopener noreferrer">
-                            <img className="sot__img" src={callImg} alt="Phone icon" />
+                            <img className="sot__img" src={callImg} alt="Phone icon"/>
                         </a>
                     </div>
 
                     <div className="top__right">
                         <p className="top__phone">+7 (800) 505-54-61</p>
-                        <img className="phone__img" src={viberImg} alt="Viber icon" />
+                        <img className="phone__img" src={viberImg} alt="Viber icon"/>
                     </div>
                 </div>
 
-                {/* Центральная часть заголовка */}
                 <div className="header__center">
                     <div className="img1">
-                        <img src={kugoo} alt="Kugoo" />
+                        <img src={kugoo} alt="Kugoo"/>
                     </div>
                     <div className="catalog">
-                        <img src={group} alt="Catalog" />
+                        <img src={group} alt="Catalog"/>
                     </div>
                     <div className="search">
-                        <input type="search" placeholder="Искать самокат KUGO" aria-label="Поиск самокатов KUGO" />
-                        <img className="search-img" src={search} alt="Search" />
+                        <input type="search" placeholder="Искать самокат KUGO" aria-label="Поиск самокатов KUGO"/>
+                        <img className="search-img" src={search} alt="Search"/>
                     </div>
                     <div className="images">
-                        <img src={corzin} alt="Корзина" />
+                        <img className="header-img" src={scales} alt="Весы"/>
+                        <img className="header-img" src={chosenOne} alt="Избранный"/>
+                        <img className="header-img" src={basket} alt="Корзина"/>
+                        <span className="header-img-text">Корзина</span>
+
                     </div>
                 </div>
-
 
                 <div className="header__bottom">
                     <nav className="nav-bottom">
@@ -73,7 +76,7 @@ const Header = () => {
                         <a href="src/components/Header">Блог</a>
                         <a href="src/components/Header">Контакты</a>
                         <a href="src/components/Header">Акции</a>
-                        <img className="percent" src={percent} alt="Акции" />
+                        <img className="percent" src={percent} alt="Акции"/>
                     </nav>
                 </div>
             </div>

@@ -37,6 +37,7 @@
 
     .top__img {
       display: flex;
+      float: left;
 
       a {
         margin: 0 10px;
@@ -82,11 +83,26 @@
     width: 100%;
     padding: 20px 0;
 
+    .header-img{
+      width: 25px;
+      height: 25px;
+      margin: 0 13px 0 23px;
+    }
+    .header-img-text{
+      color: rgb(40, 39, 57);
+      font-family: Jost, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+
     .img1 img,
     .catalog img,
     .images img {
       cursor: pointer;
       height: 40px;
+      text-align: center;
       transition: transform 0.3s;
 
       &:hover {
