@@ -4,9 +4,21 @@
 
     }
   ],
+
   "products": [
     {
-
+      "id": "",
+      "name": "",
+      "price": "",
+      "description": "",
+      "byPromotion": false,
+      "category": [
+        ""
+      ],
+      "battery": "",
+      "speed": "",
+      "power": "",
+      "img": ""
     }
   ]
 }
