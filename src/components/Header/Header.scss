@@ -110,6 +110,10 @@
       }
     }
 
+    .catalog-btn{
+      padding: 1.5px 0 0;
+    }
+
     .search {
       display: flex;
       align-items: center;
@@ -119,7 +123,7 @@
         border: 1px solid #ddd;
         border-radius: 4px;
         transition: border-color 0.3s;
-        width: 200px;
+        width: 500px;
 
         &:focus {
           border-color: #007bff;

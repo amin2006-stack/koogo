@@ -7,18 +7,32 @@
 
   "products": [
     {
-      "id": "",
-      "name": "",
-      "price": "",
-      "description": "",
+      "id": "1",
+      "name": "Kugoo Kirin M4",
+      "price": "39 000",
+      "description": "Lorem ipsum dolor sit amet.",
       "byPromotion": false,
       "category": [
-        ""
+        "Electric"
       ],
-      "battery": "",
-      "speed": "",
-      "power": "",
-      "img": ""
+      "battery": "20000 ",
+      "speed": "60",
+      "power": "1,2",
+      "img": "scooter.png"
+    },
+    {
+      "id": "2",
+      "name": "Xiaomi Mi Pro",
+      "price": "45 000",
+      "description": "Stylish and durable electric scooter.",
+      "byPromotion": true,
+      "category": [
+        "Electric"
+      ],
+      "battery": "25000",
+      "speed": "70",
+      "power": "1.5",
+      "img": "mi_scooter.png"
     }
   ]
 }

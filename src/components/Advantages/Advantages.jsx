@@ -4,7 +4,7 @@ import "./Advantages.scss"
 const Advantages = () => {
     return (
         <div>
-            advantages
+
         </div>
     );
 };
