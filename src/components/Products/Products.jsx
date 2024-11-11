@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Products.scss"
-import scooter from "../../assets/scooter.png"
 import accum from "../../assets/accum.svg"
 import power from "../../assets/power.svg"
 import speed from "../../assets/speed.svg"

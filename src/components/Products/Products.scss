@@ -52,6 +52,7 @@
 
 .products-row{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   column-gap: 30px;
 
@@ -139,7 +140,7 @@
 .products-col-btn{
   border-radius: 5px;
   background: rgb(111, 115, 238);
-  padding: 10px 80px;
+  padding: 10px 82px;
   transition: background-color 500ms ease;
 }
 
