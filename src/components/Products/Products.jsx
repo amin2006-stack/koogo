@@ -7,6 +7,7 @@ import timer from "../../assets/timer.svg"
 import shoppingCart from "../../assets/shoppingCart.svg"
 import favorite from "../../assets/favorite.svg"
 
+
 const Products = () => {
     return (
         <div className="products">
@@ -311,6 +312,12 @@ const Products = () => {
                     </div>
 
                 </div>
+
+                <button className="products-end-btn">
+                    <p className="products-end-text">Смотреть все</p>
+                </button>
+
+
 
             </div>
         </div>
