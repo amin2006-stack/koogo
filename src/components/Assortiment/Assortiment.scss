@@ -1,9 +1,61 @@
 
+.box{
+  display: flex;
+  padding-top: 110px;
+  column-gap: 30px;
+}
 
 .left{
   background: url("Mask Group.png");
+  width: 540px;
+  height: 235px;
+  padding: 32px 242px 33px 40px;
+}
+
+.left-title{
+  color: rgb(40, 39, 57);
+  font-family: Jost, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.left-text{
+  color: rgb(40, 39, 57);
+  font-family: Jost,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  margin: 10px 0 22px;
+}
+
+.left-texts{
+  color: rgb(111, 115, 238);
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  cursor: pointer;
 }
 
 .right{
   background: url("Mask Group (1).png");
+  width: 540px;
+  height: 235px;
+  padding: 32px 242px 33px 40px;
+}
+
+.right-title{
+  /* 25 px semibold */
+  color: rgb(40, 39, 57);
+  font-family: Jost, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
 }

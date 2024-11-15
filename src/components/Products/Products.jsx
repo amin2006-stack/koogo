@@ -317,8 +317,6 @@ const Products = () => {
                     <p className="products-end-text">Смотреть все</p>
                 </button>
 
-
-
             </div>
         </div>
 
