@@ -1,0 +1,45 @@
+.login {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__inputs {
+    position: relative;
+    margin-bottom: 20px;
+
+    &-icon {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &__input {
+    width: 400px;
+    padding: 15px 0 15px 40px;
+    background: #2148c0;
+    border: 0;
+    outline: 0;
+    color: white;
+  }
+  &__input::placeholder {
+    color: white;
+  }
+
+  &__button {
+    padding: 10px 0;
+    width: 400px;
+    background: #2148c0;
+    color: #ffffff;
+  }
+
+  &__password {
+    position: relative;
+    top: 10px;
+    left: 70%;
+    color: #2148c0;
+    text-decoration: none;
+  }
+}

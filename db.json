@@ -1,10 +1,5 @@
 {
-  "users" : [
-    {
-
-    }
-  ],
-
+  "users": [],
   "products": [
     {
       "id": "",
@@ -12,9 +7,7 @@
       "price": "",
       "description": "",
       "byPromotion": false,
-      "category": [
-        ""
-      ],
+      "category": [""],
       "battery": "",
       "speed": "",
       "power": "",
