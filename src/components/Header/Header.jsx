@@ -46,7 +46,7 @@ const Header = () => {
                         <img src={kugoo} alt="Kugoo"/>
                     </div>
                     <div className="catalog">
-                        <img src={group} alt="Catalog"/>
+                        <img className="catalog-btn" src={group} alt="Catalog"/>
                     </div>
                     <div className="search">
                         <input type="search" placeholder="Искать самокат KUGO" aria-label="Поиск самокатов KUGO"/>

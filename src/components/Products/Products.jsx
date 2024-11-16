@@ -1,8 +1,7 @@
 import React from 'react';
 import "./Products.scss"
-import scooter from "../../assets/scooter.png"
 import accum from "../../assets/accum.svg"
-import power from  "../../assets/power.svg"
+import power from "../../assets/power.svg"
 import speed from "../../assets/speed.svg"
 import timer from "../../assets/timer.svg"
 import shoppingCart from "../../assets/shoppingCart.svg"
@@ -12,52 +11,307 @@ const Products = () => {
     return (
         <div className="products">
             <div className="container">
-                <div className="products__top"></div>
-                <div className="products__center">
-                    <div className="products__center">
-                        <div>
-                            <div className="products__center-action">Новинка</div>
-                            <div className="products__center-hit">Хит</div>
+                <div className="products-nav">
+                    <h3 className="products-nav-title">Электросамокаты</h3>
+                    <button className="products-nav-btn">
+                        <p className="products-nav-text">Хиты продаж</p>
+                    </button>
+                    <button className="products-nav-btn">
+                        <p className="products-nav-text">Для города</p>
+                    </button>
+                    <button className="products-nav-btn">
+                        <p className="products-nav-text">Для взрослых</p>
+                    </button>
+                    <button className="products-nav-btn">
+                        <p className="products-nav-text">Для детей</p>
+                    </button>
+                </div>
+
+                <div className="products-row">
+
+                    <div className="products-col">
+                    <div className="products-col-img"></div>
+
+                    <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                    <div className="products-col-infoOne">
+                        <img className="products-col-info-img" src={accum} alt=""/>
+                        <span className="products-col-info-text">2000 mAh</span>
+                        <img className="products-col-info-img" src={power} alt=""/>
+                        <span className="products-col-info-text">1,2 л.с.</span>
+                    </div>
+
+                    <div className="products-col-infoOne">
+                        <img className="products-col-info-img" src={speed} alt=""/>
+                        <span className="products-col-info-textt">60 км/ч</span>
+                        <img className="products-col-info-img" src={timer} alt=""/>
+                        <span className="products-col-info-text">5 часов</span>
+                    </div>
+
+                    <div className="products-col-infoTwo">
+                        <div className="products-col-infoTwo-left">
+                            <p className="products-col-price">39 900</p>
+                            <p className="products-col-discount">29 900</p>
                         </div>
-                        <img src={scooter} alt=""/>
-                        <div>
-                            <h3>Kugoo Kirin M4</h3>
-                            <div>
-                                <img src={accum} alt=""/>
-                                <p>20000 mAh</p>
-                                <img src={power} alt=""/>
-                                <p>1,2 л.с</p>
-                            </div>
-                            <div>
-                                <img src={speed} alt=""/>
-                                <p>60 км/ч</p>
-                                <img src={timer} alt=""/>
-                                <p>5 час</p>
-                            </div>
-                            <div>
-                                <div>
-                                    <p>39 000P</p>
-                                    <h4>29 990P</h4>
-                                </div>
-                                <div>
-                                    <div>
-                                        <img src={shoppingCart} alt=""/>
-                                    </div>
-                                    <div>
-                                        <img src={favorite} alt=""/>
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <button>Купить в 1 клик</button>
-
-
+                        <div className="products-col-infoTwo-right">
+                            <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                            <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
                         </div>
                     </div>
 
+                    <button className='products-col-btn'>
+                        <p className="products-col-btn-text">Купить в 1 клик</p>
+                    </button>
+
                 </div>
+                    <div className="products-col">
+                        <div className="products-col-img"></div>
+
+                        <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={accum} alt=""/>
+                            <span className="products-col-info-text">2000 mAh</span>
+                            <img className="products-col-info-img" src={power} alt=""/>
+                            <span className="products-col-info-text">1,2 л.с.</span>
+                        </div>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={speed} alt=""/>
+                            <span className="products-col-info-textt">60 км/ч</span>
+                            <img className="products-col-info-img" src={timer} alt=""/>
+                            <span className="products-col-info-text">5 часов</span>
+                        </div>
+
+                        <div className="products-col-infoTwo">
+                            <div className="products-col-infoTwo-left">
+                                <p className="products-col-price">39 900</p>
+                                <p className="products-col-discount">29 900</p>
+                            </div>
+                            <div className="products-col-infoTwo-right">
+                                <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                                <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
+                            </div>
+                        </div>
+
+                        <button className='products-col-btn'>
+                            <p className="products-col-btn-text">Купить в 1 клик</p>
+                        </button>
+
+                    </div>
+                    <div className="products-col">
+                        <div className="products-col-img"></div>
+
+                        <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={accum} alt=""/>
+                            <span className="products-col-info-text">2000 mAh</span>
+                            <img className="products-col-info-img" src={power} alt=""/>
+                            <span className="products-col-info-text">1,2 л.с.</span>
+                        </div>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={speed} alt=""/>
+                            <span className="products-col-info-textt">60 км/ч</span>
+                            <img className="products-col-info-img" src={timer} alt=""/>
+                            <span className="products-col-info-text">5 часов</span>
+                        </div>
+
+                        <div className="products-col-infoTwo">
+                            <div className="products-col-infoTwo-left">
+                                <p className="products-col-price">39 900</p>
+                                <p className="products-col-discount">29 900</p>
+                            </div>
+                            <div className="products-col-infoTwo-right">
+                                <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                                <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
+                            </div>
+                        </div>
+
+                        <button className='products-col-btn'>
+                            <p className="products-col-btn-text">Купить в 1 клик</p>
+                        </button>
+
+                    </div>
+                    <div className="products-col">
+                        <div className="products-col-img"></div>
+
+                        <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={accum} alt=""/>
+                            <span className="products-col-info-text">2000 mAh</span>
+                            <img className="products-col-info-img" src={power} alt=""/>
+                            <span className="products-col-info-text">1,2 л.с.</span>
+                        </div>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={speed} alt=""/>
+                            <span className="products-col-info-textt">60 км/ч</span>
+                            <img className="products-col-info-img" src={timer} alt=""/>
+                            <span className="products-col-info-text">5 часов</span>
+                        </div>
+
+                        <div className="products-col-infoTwo">
+                            <div className="products-col-infoTwo-left">
+                                <p className="products-col-price">39 900</p>
+                                <p className="products-col-discount">29 900</p>
+                            </div>
+                            <div className="products-col-infoTwo-right">
+                                <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                                <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
+                            </div>
+                        </div>
+
+                        <button className='products-col-btn'>
+                            <p className="products-col-btn-text">Купить в 1 клик</p>
+                        </button>
+
+                    </div>
+                    <div className="products-col">
+                        <div className="products-col-img"></div>
+
+                        <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={accum} alt=""/>
+                            <span className="products-col-info-text">2000 mAh</span>
+                            <img className="products-col-info-img" src={power} alt=""/>
+                            <span className="products-col-info-text">1,2 л.с.</span>
+                        </div>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={speed} alt=""/>
+                            <span className="products-col-info-textt">60 км/ч</span>
+                            <img className="products-col-info-img" src={timer} alt=""/>
+                            <span className="products-col-info-text">5 часов</span>
+                        </div>
+
+                        <div className="products-col-infoTwo">
+                            <div className="products-col-infoTwo-left">
+                                <p className="products-col-price">39 900</p>
+                                <p className="products-col-discount">29 900</p>
+                            </div>
+                            <div className="products-col-infoTwo-right">
+                                <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                                <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
+                            </div>
+                        </div>
+
+                        <button className='products-col-btn'>
+                            <p className="products-col-btn-text">Купить в 1 клик</p>
+                        </button>
+
+                    </div>
+                    <div className="products-col">
+                        <div className="products-col-img"></div>
+
+                        <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={accum} alt=""/>
+                            <span className="products-col-info-text">2000 mAh</span>
+                            <img className="products-col-info-img" src={power} alt=""/>
+                            <span className="products-col-info-text">1,2 л.с.</span>
+                        </div>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={speed} alt=""/>
+                            <span className="products-col-info-textt">60 км/ч</span>
+                            <img className="products-col-info-img" src={timer} alt=""/>
+                            <span className="products-col-info-text">5 часов</span>
+                        </div>
+
+                        <div className="products-col-infoTwo">
+                            <div className="products-col-infoTwo-left">
+                                <p className="products-col-price">39 900</p>
+                                <p className="products-col-discount">29 900</p>
+                            </div>
+                            <div className="products-col-infoTwo-right">
+                                <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                                <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
+                            </div>
+                        </div>
+
+                        <button className='products-col-btn'>
+                            <p className="products-col-btn-text">Купить в 1 клик</p>
+                        </button>
+
+                    </div>
+                    <div className="products-col">
+                        <div className="products-col-img"></div>
+
+                        <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={accum} alt=""/>
+                            <span className="products-col-info-text">2000 mAh</span>
+                            <img className="products-col-info-img" src={power} alt=""/>
+                            <span className="products-col-info-text">1,2 л.с.</span>
+                        </div>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={speed} alt=""/>
+                            <span className="products-col-info-textt">60 км/ч</span>
+                            <img className="products-col-info-img" src={timer} alt=""/>
+                            <span className="products-col-info-text">5 часов</span>
+                        </div>
+
+                        <div className="products-col-infoTwo">
+                            <div className="products-col-infoTwo-left">
+                                <p className="products-col-price">39 900</p>
+                                <p className="products-col-discount">29 900</p>
+                            </div>
+                            <div className="products-col-infoTwo-right">
+                                <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                                <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
+                            </div>
+                        </div>
+
+                        <button className='products-col-btn'>
+                            <p className="products-col-btn-text">Купить в 1 клик</p>
+                        </button>
+
+                    </div>
+                    <div className="products-col">
+                        <div className="products-col-img"></div>
+
+                        <h4 className="products-col-title">Kugoo Kirin M4</h4>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={accum} alt=""/>
+                            <span className="products-col-info-text">2000 mAh</span>
+                            <img className="products-col-info-img" src={power} alt=""/>
+                            <span className="products-col-info-text">1,2 л.с.</span>
+                        </div>
+
+                        <div className="products-col-infoOne">
+                            <img className="products-col-info-img" src={speed} alt=""/>
+                            <span className="products-col-info-textt">60 км/ч</span>
+                            <img className="products-col-info-img" src={timer} alt=""/>
+                            <span className="products-col-info-text">5 часов</span>
+                        </div>
+
+                        <div className="products-col-infoTwo">
+                            <div className="products-col-infoTwo-left">
+                                <p className="products-col-price">39 900</p>
+                                <p className="products-col-discount">29 900</p>
+                            </div>
+                            <div className="products-col-infoTwo-right">
+                                <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
+                                <img className="products-col-infoTwo-righttt" src={favorite} alt=""/>
+                            </div>
+                        </div>
+
+                        <button className='products-col-btn'>
+                            <p className="products-col-btn-text">Купить в 1 клик</p>
+                        </button>
+
+                    </div>
+
+                </div>
+
             </div>
         </div>
 

@@ -2,10 +2,10 @@
   "users": [],
   "products": [
     {
-      "id": "",
-      "name": "",
-      "price": "",
-      "description": "",
+      "id": "1",
+      "name": "Kugoo Kirin M4",
+      "price": "39 000",
+      "description": "Lorem ipsum dolor sit amet.",
       "byPromotion": false,
       "category": [""],
       "battery": "",

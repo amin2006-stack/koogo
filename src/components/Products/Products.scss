@@ -1,0 +1,172 @@
+
+.products-nav{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 0 50px 0;
+}
+
+.products-nav-title{
+  color: rgb(40, 39, 57);
+  font-family: Jost,sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 282px 0 0;
+}
+
+.products-nav-btn{
+  padding: 3px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: rgb(111, 115, 238);
+  transition: background, border 500ms ease;
+  margin: 0 0 0 10px;
+}
+
+.products-nav-btn:hover{
+  border: 1.3px solid rgb(111, 115, 238);
+  background: white;
+  color: #ffffff;
+}
+
+.products-nav-text{
+  color: rgb(93, 108, 123);
+  font-family: Jost, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+}
+
+.products-nav-text:hover{
+  color: rgb(111, 115, 238);
+}
+
+.products-col-img{
+  background: url("Kugoo.png");
+  width: 242px;
+  height: 182px;
+}
+
+.products-row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+
+}
+
+.products-col-title{
+  color: rgb(40, 39, 57);
+  font-family: Jost, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  margin: 21px 0;
+}
+
+.products-col-infoOne{
+  padding-bottom: 18px;
+}
+
+.products-col-info-img{
+  margin: 0 10px 0 0;
+}
+
+.products-col-info-textt{
+  color: rgb(93, 108, 123);
+  font-family: Roboto,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0 39px 0 0;
+}
+
+.products-col-info-text{
+  color: rgb(93, 108, 123);
+  font-family: Roboto,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  margin: 0 24px 0 0;
+}
+
+.products-col-infoTwo{
+  display: flex;
+  column-gap: 28px;
+}
+
+.products-col-price{
+  color: rgb(93, 108, 123);
+  font-family: Jost, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  text-decoration-line: line-through;
+}
+
+.products-col-discount{
+  color: rgb(40, 39, 57);
+  font-family: Jost, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+  margin: 0 0 16px 0 ;
+}
+
+.products-col-infoTwo{
+  display: flex;
+  align-items: center;
+  column-gap: 38px;
+}
+
+.products-col-infoTwo-rightt{
+  width: 25px;
+  height: 25px;
+  margin: 0 30px 0 0;
+}
+
+.products-col-infoTwo-righttt{
+  width: 25px;
+  height: 25px;
+}
+
+.products-col-btn{
+  border-radius: 5px;
+  background: rgb(111, 115, 238);
+  padding: 10px 82px;
+  transition: background-color 500ms ease;
+}
+
+.products-col-btn:hover{
+  background-color: #4535c1;
+}
+
+.products-col-btn-text{
+  color: rgb(255, 255, 255);
+  font-family: Jost, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
