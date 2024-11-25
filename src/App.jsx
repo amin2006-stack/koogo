@@ -5,7 +5,7 @@ import HoverRating from "./Rating.jsx";
 import CustomizedAccordions from "./Accordion.jsx";
 
 import { Provider } from "react-redux";
-import { store } from "./store/store.js";
+import store from "./store/store"
 
 
 function App() {
@@ -19,3 +19,4 @@ function App() {
     </Provider>
   );
 }
+export default App
