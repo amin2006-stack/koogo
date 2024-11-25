@@ -11,6 +11,8 @@ import chosenOne from "./Vector (1).svg"
 import basket from "./Vector (2).svg";
 import percent from "../../assets/percent.svg";
 import search from "../../assets/search.svg";
+import {Link} from "@mui/material";
+import CartLink from "./CartLink.jsx";
 
 const Header = () => {
     return (
@@ -53,10 +55,12 @@ const Header = () => {
                         <img className="search-img" src={search} alt="Search"/>
                     </div>
                     <div className="images">
-                        <img className="header-img" src={scales} alt="Весы"/>
+                        {/*<img className="header-img" src={scales} alt="Весы"/>*/}
                         <img className="header-img" src={chosenOne} alt="Избранный"/>
-                        <img className="header-img" src={basket} alt="Корзина"/>
-                        <span className="header-img-text">Корзина</span>
+
+                        <Link to='/cart'>
+                            <CartLink/>
+                        </Link>
 
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import "./styles/App.scss"
 import HoverRating from "./Rating.jsx";
 import CustomizedAccordions from "./Accordion.jsx";
 // import {Provider} from  "@reduxjs/toolkit"
-import store from "./store/store.js";
+// import store from "./store/store.js";
 
 
 function App() {
