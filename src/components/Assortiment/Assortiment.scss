@@ -1,0 +1,119 @@
+
+.box{
+  display: flex;
+  justify-content: center;
+  padding: 110px 0;
+  column-gap: 30px;
+}
+
+.left{
+  background: url("Mask Group.png");
+  width: 540px;
+  height: 235px;
+  padding: 32px 242px 33px 40px;
+}
+
+.left-title{
+  color: rgb(40, 39, 57);
+  font-family: Jost, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.left-text{
+  color: rgb(40, 39, 57);
+  font-family: Jost,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  margin: 10px 0 22px;
+}
+
+.left-texts{
+  color: rgb(111, 115, 238);
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.right{
+  background: url("Mask Group (1).png");
+  width: 540px;
+  height: 235px;
+  padding: 32px 242px 33px 40px;
+}
+
+.right-title{
+  color: rgb(40, 39, 57);
+  font-family: Jost, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.box-end{
+  background: url("Rectangle 161.png") center/cover no-repeat;
+  display: flex;
+  height: 410px;
+}
+
+.box-end-fly{
+  width: 800px;
+  margin: -80px 0 0 -120px;
+  overflow: hidden;
+}
+
+.box-end-right{
+  margin: 45px 0 0 0;
+}
+
+.box-end-promotion{
+  border: 1px solid rgb(238, 104, 95);
+  border-radius: 5px;
+  background: rgb(238, 104, 95);
+  color: rgb(255, 255, 255);
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 3px 13px;
+}
+
+.box-end-info{
+  color: rgb(255, 255, 255);
+  font-family: Jost, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 27px 0;
+}
+
+.box-end-btn{
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: rgb(255, 255, 255);
+  transition: background 500ms ease , color 500ms ease;
+}
+
+.box-end-btn:hover{
+  background: rgb(238, 104, 95);
+  color: white;
+}
+
+.box-end-btn-text{
+  font-family: Jost, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}

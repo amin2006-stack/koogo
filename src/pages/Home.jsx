@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from "../components/Banner/Banner.jsx";
 import Advantages from "../components/Advantages/Advantages.jsx";
-import Products from "../components/Products/Products.jsx";
+import Product from "../components/Products/Product.jsx";
 import Assortiment from "../components/Assortiment/Assortiment.jsx";
 import Promotion from "../components/Promotion/Promotion.jsx";
 import Category from "../components/Category/Category.jsx";
@@ -19,7 +19,7 @@ const Home = () => {
         <div>
             <Banner/>
             <Advantages/>
-            <Products/>
+            <Product/>
             <Assortiment/>
             <Promotion/>
             <Category/>

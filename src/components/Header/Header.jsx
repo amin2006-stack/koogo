@@ -11,8 +11,13 @@ import chosenOne from "./Vector (1).svg";
 import basket from "./Vector (2).svg";
 import percent from "../../assets/percent.svg";
 import search from "../../assets/search.svg";
+<<<<<<< HEAD
 import { useDispatch, useSelector } from "react-redux";
 import { logOut } from "../../store/user/user.js";
+=======
+import {Link} from "@mui/material";
+import CartLink from "./CartLink.jsx";
+>>>>>>> 7ba5d557bd08b0272c8e2b69e73eb43bb653e68e
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -63,11 +68,32 @@ const Header = () => {
             </a>
           </div>
 
+<<<<<<< HEAD
           <div className="top__right">
             <p className="top__phone">+7 (800) 505-54-61</p>
             <img className="phone__img" src={viberImg} alt="Viber icon" />
           </div>
         </div>
+=======
+                <div className="header__center">
+                    <div className="img1">
+                        <img src={kugoo} alt="Kugoo"/>
+                    </div>
+                    <div className="catalog">
+                        <img className="catalog-btn" src={group} alt="Catalog"/>
+                    </div>
+                    <div className="search">
+                        <input type="search" placeholder="Искать самокат KUGO" aria-label="Поиск самокатов KUGO"/>
+                        <img className="search-img" src={search} alt="Search"/>
+                    </div>
+                    <div className="images">
+                        {/*<img className="header-img" src={scales} alt="Весы"/>*/}
+                        <img className="header-img" src={chosenOne} alt="Избранный"/>
+
+                        <Link to='/cart'>
+                            <CartLink/>
+                        </Link>
+>>>>>>> 7ba5d557bd08b0272c8e2b69e73eb43bb653e68e
 
         <div className="header__center">
           <div className="img1">
