@@ -12,11 +12,10 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <HoverRating />
-        <CustomizedAccordions />
         <RouterProvider router={router} />
       </div>
     </Provider>
   );
+
 }
 export default App

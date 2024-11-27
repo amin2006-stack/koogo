@@ -13,6 +13,7 @@ import Blogs from "../components/Blogs/Blogs.jsx";
 import Questions from "../components/Questions/Questions.jsx";
 import HitProducts from "../components/HitProducts/HitProducts.jsx";
 import About from "../components/About/About.jsx";
+import CustomizedAccordions from "../Accordion.jsx";
 
 const Home = () => {
     return (
@@ -31,6 +32,7 @@ const Home = () => {
             <Blogs/>
             <Questions/>
             <HitProducts/>
+            <CustomizedAccordions/>
         </div>
     );
 };

@@ -1,11 +1,11 @@
 import React from 'react';
-import "./Promotion.scss"
 
-const Promotion = () => {
+const Product = () => {
     return (
         <div>
+            
         </div>
     );
 };
 
-export default Promotion;
+export default Product;

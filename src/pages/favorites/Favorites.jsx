@@ -21,7 +21,8 @@ const Favorites =() => {
                     {
                         data.filter(item => favorites.data.includes(item.id)).map((item) => (
                             <div key={item.id} className="products-col">
-                                <div className="products-col-img"></div>
+
+                                <img src={item.img} />
 
                                 <h4 className="products-col-title">{item.name}</h4>
 
