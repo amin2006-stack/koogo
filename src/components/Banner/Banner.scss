@@ -9,6 +9,38 @@
   padding: 0 20px;
 }
 
+.banner-back-title{
+  color: rgb(255, 255, 255);
+  font-family: Jost, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 51px;
+  text-transform: uppercase;
+  padding: 102px 0 0 180px;
+}
+
+.banner-back-text{
+  color: rgb(255, 255, 255);
+  font-family: Jost, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  padding: 7px 0 25px 180px;
+}
+
+.banner-back-btn{
+  padding: 15px 25px;
+  color: rgb(111, 115, 238);
+  border-radius: 5px;
+  margin-left: 180px;
+  transition: color, background-color 500ms ease;
+}
+
+.banner-back-btn:hover{
+  color: white;
+  background-color: rgb(111, 115, 238);
+}
+
 .banner-box{
   display: flex;
   justify-content: space-between;

@@ -33,23 +33,10 @@ const Products = () => {
 
             <div className="container">
 
-                <div className="products-nav">
-                    <h3 className="products-nav-title">Электросамокаты</h3>
-                    <button className="products-nav-btn">
-                        <p className="products-nav-text">Хиты продаж</p>
-                    </button>
-                    <button className="products-nav-btn">
-                        <p className="products-nav-text">Для города</p>
-                    </button>
-                    <button className="products-nav-btn">
-                        <p className="products-nav-text">Для взрослых</p>
-                    </button>
-                    <button className="products-nav-btn">
-                        <p className="products-nav-text">Для детей</p>
-                    </button>
+                <div className="filter-price">
+                    <FilterPrice />
                 </div>
 
-                <FilterPrice className="filter-price"/>
 
                 <div className="products-row">
 
@@ -60,7 +47,8 @@ const Products = () => {
 
                         }).map((item) => (
                             <div key={item.id} className="products-col">
-                                <div className="products-col-img"></div>
+
+                                <img src={item.img} />
 
                                 <h4 className="products-col-title">{item.name}</h4>
 
@@ -108,10 +96,6 @@ const Products = () => {
                                             <p  className="products-col-btn-text">Купить в 1 клик</p>
                                         </button>
                                 }
-
-
-
-
                             </div>
                         ))
                     }
@@ -128,12 +112,6 @@ const Products = () => {
                                 page={filter.page} count={Math.ceil(data.length / 8)} variant="outlined"
                                 shape="rounded"/>
                 </div>
-
-
-                <button className="products-end-btn">
-                    <p className="products-end-text">Смотреть все</p>
-                </button>
-
             </div>
         </div>
 

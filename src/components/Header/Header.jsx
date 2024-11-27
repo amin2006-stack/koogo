@@ -13,8 +13,20 @@ import percent from "../../assets/percent.svg";
 import search from "../../assets/search.svg";
 import {Link} from "@mui/material";
 import CartLink from "./CartLink.jsx";
+import {useNavigate} from "react-router-dom";
 
 const Header = () => {
+
+    const navigate = useNavigate()
+
+    const favorite = () => {
+        navigate('/favorite')
+    }
+
+    const cart = () => {
+        navigate('/cart')
+    }
+
     return (
         <header className="header">
             <div className="container">
@@ -56,10 +68,14 @@ const Header = () => {
                     </div>
                     <div className="images">
                         {/*<img className="header-img" src={scales} alt="Весы"/>*/}
-                        <img className="header-img" src={chosenOne} alt="Избранный"/>
 
-                        <Link to='/cart'>
-                            <CartLink/>
+                        <Link  to='favorite'>
+                            <img onClick={favorite}  className="header-img" src={chosenOne} alt="Избранный"/>
+                        </Link>
+
+
+                        <Link onClick={cart}  to='/cart'>
+                            <CartLink />
                         </Link>
 
                     </div>

@@ -1,0 +1,12 @@
+
+.carts__col{
+}
+
+.carts_col_top{
+    display: flex;
+}
+
+.carts_col_top_img{
+    height: 50px;
+    width: 50px;
+}

@@ -5,7 +5,17 @@ import "./Banner.scss"
 const Banner = () => {
     return (
         <div className="banner">
-            <div className="banner-background"></div>
+            <div className="banner-background">
+
+                <h3 className="banner-back-title">Электросамокаты Kugoo Kirin <br/> от официального дилера</h3>
+
+                <p className="banner-back-text">с бесплатной доставкой по РФ от 1 дня</p>
+
+                <button className="banner-back-btn">Перейти в католог</button>
+
+
+
+            </div>
             <div className="container">
                 <div className="banner-box">
                     <div className="banner-col">
