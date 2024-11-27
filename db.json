@@ -1,41 +1,5 @@
 {
-  "users": [
-    {
-      "email": "afdsd@gmail.com",
-      "password": "$2a$10$GQVNAlF2DKjDAkbDUXgZTejPvuUJJkx5EQLxgfsE9Hdx8nLipcOxK",
-      "firstName": "asdasd",
-      "lastName": "asdasdasd",
-      "id": 1
-    },
-    {
-      "email": "ijsoidjf@gmail.com",
-      "password": "$2a$10$PHBc9oLgYX/gtkccHEhbuOQjLINZrNqn6zZoRFdD75uls/LG8FE5i",
-      "firstName": "as,dnalsjd",
-      "lastName": ";kasjdlkansd",
-      "id": 2
-    },
-    {
-      "email": "adasd@gmail.com",
-      "password": "$2a$10$tR5YppTiijoLYKGlpf39mOe3pDppvdjOhSKSrFanV6zdMD5BX1fta",
-      "firstName": ";sajdlajsd",
-      "lastName": "6uyetwrwtyr",
-      "id": 3
-    },
-    {
-      "email": "hasdkjhaskdjhasdk@gmail.com",
-      "password": "$2a$10$aTyW1OE.09kfh30w7BrBhuDhc6nZnzXdek1WgzD3drshey1VtPNGm",
-      "firstName": "asd",
-      "lastName": "6uyetwrwtyr",
-      "id": 4
-    },
-    {
-      "email": "jjjj@gmail.com",
-      "password": "$2a$10$8q/4/iSSEIyvjEGMtJZt.ubcxnE4tcMtWhLDioaIMHNrVA7fAeB0a",
-      "firstName": "hhhh",
-      "lastName": "hhhh",
-      "id": 5
-    }
-  ],
+  "users": [],
   "products": [
     {
       "id": "1",
@@ -44,11 +8,6 @@
       "discount": 29000,
       "description": "High-speed electric scooter.",
       "byPromotion": false,
-<<<<<<< HEAD
-      "category": [
-        ""
-      ],
-=======
 <<<<<<< HEAD
       "category": ["Electric"],
       "battery": 20000,
@@ -313,16 +272,11 @@
 }
 =======
       "category": [""],
->>>>>>> 7ba5d557bd08b0272c8e2b69e73eb43bb653e68e
       "battery": "",
       "speed": "",
       "power": "",
       "img": ""
     }
   ]
-<<<<<<< HEAD
-}
-=======
 }
 >>>>>>> d44c4738a9a0257001a57e19d23dec6121f562fd
->>>>>>> 7ba5d557bd08b0272c8e2b69e73eb43bb653e68e
