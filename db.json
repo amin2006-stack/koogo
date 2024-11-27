@@ -1,5 +1,41 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "afdsd@gmail.com",
+      "password": "$2a$10$GQVNAlF2DKjDAkbDUXgZTejPvuUJJkx5EQLxgfsE9Hdx8nLipcOxK",
+      "firstName": "asdasd",
+      "lastName": "asdasdasd",
+      "id": 1
+    },
+    {
+      "email": "ijsoidjf@gmail.com",
+      "password": "$2a$10$PHBc9oLgYX/gtkccHEhbuOQjLINZrNqn6zZoRFdD75uls/LG8FE5i",
+      "firstName": "as,dnalsjd",
+      "lastName": ";kasjdlkansd",
+      "id": 2
+    },
+    {
+      "email": "adasd@gmail.com",
+      "password": "$2a$10$tR5YppTiijoLYKGlpf39mOe3pDppvdjOhSKSrFanV6zdMD5BX1fta",
+      "firstName": ";sajdlajsd",
+      "lastName": "6uyetwrwtyr",
+      "id": 3
+    },
+    {
+      "email": "hasdkjhaskdjhasdk@gmail.com",
+      "password": "$2a$10$aTyW1OE.09kfh30w7BrBhuDhc6nZnzXdek1WgzD3drshey1VtPNGm",
+      "firstName": "asd",
+      "lastName": "6uyetwrwtyr",
+      "id": 4
+    },
+    {
+      "email": "jjjj@gmail.com",
+      "password": "$2a$10$8q/4/iSSEIyvjEGMtJZt.ubcxnE4tcMtWhLDioaIMHNrVA7fAeB0a",
+      "firstName": "hhhh",
+      "lastName": "hhhh",
+      "id": 5
+    }
+  ],
   "products": [
     {
       "id": "1",
@@ -7,7 +43,9 @@
       "price": "39 000",
       "description": "Lorem ipsum dolor sit amet.",
       "byPromotion": false,
-      "category": [""],
+      "category": [
+        ""
+      ],
       "battery": "",
       "speed": "",
       "power": "",
