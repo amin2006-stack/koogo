@@ -3,10 +3,8 @@ import router from "./routing/Routing.jsx";
 import "./styles/App.scss";
 import HoverRating from "./Rating.jsx";
 import CustomizedAccordions from "./Accordion.jsx";
-
 import { Provider } from "react-redux";
-import { store } from "./store/store.js";
-
+import store from "./store/store.js";
 
 function App() {
   return (
@@ -19,3 +17,5 @@ function App() {
     </Provider>
   );
 }
+
+export default App;

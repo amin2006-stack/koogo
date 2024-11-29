@@ -1,4 +1,3 @@
-import React from "react";
 import "./Login.scss";
 import { Link } from "react-router-dom";
 import userIcon from "../../assets/userIcon.svg";

@@ -8,7 +8,6 @@
       "discount": 29000,
       "description": "High-speed electric scooter.",
       "byPromotion": false,
-<<<<<<< HEAD
       "category": ["Electric"],
       "battery": 20000,
       "speed": 60,
@@ -268,15 +267,5 @@
       "time": 2,
       "img": "scooter.png"
     }
-    ]
-}
-=======
-      "category": [""],
-      "battery": "",
-      "speed": "",
-      "power": "",
-      "img": ""
-    }
   ]
 }
->>>>>>> d44c4738a9a0257001a57e19d23dec6121f562fd
