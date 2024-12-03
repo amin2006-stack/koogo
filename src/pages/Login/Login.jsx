@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import userIcon from "../../assets/userIcon.svg";
 import lockIcon from "../../assets/lockIcon.svg";
 import { useDispatch, useSelector } from "react-redux";
-import { loginUser, registerUser } from "../../store/user/user";
-import { Navigate } from "react-router-dom";
+import { loginUser } from "../../store/user/user";
 import { useForm } from "react-hook-form";
 
 const Login = () => {
@@ -14,22 +13,18 @@ const Login = () => {
     formState: { errors },
   } = useForm({ mode: "onBlur" });
 
-  const { user, status, error } = useSelector((s) => s.user);
-
   const dispatch = useDispatch();
+
+  const { user, status, error } = useSelector((state) => state.user);
 
   const submitForm = (data) => {
     dispatch(loginUser(data));
   };
 
-  if (status === "success") {
-    return <Navigate to="/" />;
-  }
-
   return (
     <div className="login">
       <div className="container">
-        <form className="form" onSubmit={handleSubmit(submitForm)} action="">
+        <form className="form" action="" onSubmit={handleSubmit(submitForm)}>
           <div className="login__inputs">
             <img className="login__inputs-icon" src={userIcon} alt="" />
             <input
@@ -38,7 +33,6 @@ const Login = () => {
               className="login__input"
               type="text"
             />
-            {errors.email && <p className="error">{errors.email.message}</p>}
           </div>
           <div className="login__inputs">
             <img className="login__inputs-icon" src={lockIcon} alt="" />
@@ -48,10 +42,11 @@ const Login = () => {
               className="login__input"
               type="password"
             />
-            {errors.email && <p className="error">{errors.email.message}</p>}
           </div>
           <div>
-            <button className="login__button">Login</button>
+            <button className="login__button" type="submit">
+              Login
+            </button>
             <br />
             <Link className="login__password">Forgot password?</Link>
           </div>

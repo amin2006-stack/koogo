@@ -1,17 +1,17 @@
-/* eslint-disable no-unreachable */
 /* eslint-disable no-unused-vars */
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
+// Thunk for registering a user
 export const registerUser = createAsyncThunk(
-  "post/registerUser",
+  "user/registerUser",
   async (arg, { rejectWithValue }) => {
     try {
-      const res = await axios.post("http://localhost:5000/users", arg);
+      const res = await axios.post("http://localhost:5000/users", arg); // Updated endpoint
       if (res.status !== 201) {
         throw new Error("Unexpected response status");
       }
-      return res.data; // Adjust based on actual server response
+      return res.data;
     } catch (err) {
       console.error("Error response:", err.response?.data);
       return rejectWithValue(err.response?.data?.message || err.message);
@@ -19,7 +19,25 @@ export const registerUser = createAsyncThunk(
   }
 );
 
-const user = createSlice({
+// Thunk for logging in a user
+export const loginUser = createAsyncThunk(
+  "user/loginUser",
+  async (arg, { rejectWithValue }) => {
+    try {
+      const res = await axios.post("http://localhost:5000/login", arg); // Standard JSON-server-auth endpoint
+      if (res.status !== 200) {
+        throw new Error("Unexpected response status");
+      }
+      return res.data;
+    } catch (err) {
+      console.error("Error response:", err.response?.data);
+      return rejectWithValue(err.response?.data?.message || err.message);
+    }
+  }
+);
+
+// User slice
+const userSlice = createSlice({
   name: "user",
   initialState: {
     user: null,
@@ -27,7 +45,7 @@ const user = createSlice({
     error: null,
   },
   reducers: {
-    logOut: (state, action) => {
+    logOut: (state) => {
       state.user = null;
       state.status = "idle";
       state.error = null;
@@ -35,6 +53,7 @@ const user = createSlice({
   },
   extraReducers: (builder) => {
     builder
+      // Register
       .addCase(registerUser.pending, (state) => {
         state.status = "loading";
         state.error = null;
@@ -47,8 +66,22 @@ const user = createSlice({
         state.status = "success";
         state.user = action.payload;
       })
+      // Login
+      .addCase(loginUser.pending, (state) => {
+        state.status = "loading";
+        state.error = null;
+      })
+      .addCase(loginUser.rejected, (state, action) => {
+        state.status = "error";
+        state.error = action.payload || "Login failed.";
+      })
+      .addCase(loginUser.fulfilled, (state, action) => {
+        state.status = "success";
+        state.user = action.payload;
+      });
   },
 });
 
-export const { logOut } = user.actions;
-export default user.reducer;
+// Export actions and reducer
+export const { logOut } = userSlice.actions;
+export default userSlice.reducer;
