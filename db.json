@@ -1,5 +1,13 @@
 {
-  "users": [],
+  "users": [
+    {
+      "email": "jjjj@gmail.com",
+      "password": "$2a$10$ozyo4iwNfaWXAwVFF1k8HuUz9mKaqOyziVSpQ4e8w6JdoTkKuUWqS",
+      "firstName": "alksjashd",
+      "lastName": "фывфывфыв",
+      "id": 1
+    }
+  ],
   "products": [
     {
       "id": "1",
@@ -8,7 +16,9 @@
       "discount": 29000,
       "description": "High-speed electric scooter.",
       "byPromotion": false,
-      "category": ["Electric"],
+      "category": [
+        "Electric"
+      ],
       "battery": 20000,
       "speed": 60,
       "power": 1.2,
@@ -22,7 +32,9 @@
       "discount": 34000,
       "description": "Reliable and efficient scooter.",
       "byPromotion": true,
-      "category": ["Electric"],
+      "category": [
+        "Electric"
+      ],
       "battery": 18000,
       "speed": 50,
       "power": 1.5,
@@ -36,7 +48,10 @@
       "discount": 43000,
       "description": "Smooth ride with extra power.",
       "byPromotion": true,
-      "category": ["Electric", "Premium"],
+      "category": [
+        "Electric",
+        "Premium"
+      ],
       "battery": 25000,
       "speed": 55,
       "power": 1.8,
@@ -50,7 +65,10 @@
       "discount": 28000,
       "description": "Lightweight and portable.",
       "byPromotion": false,
-      "category": ["Electric", "Compact"],
+      "category": [
+        "Electric",
+        "Compact"
+      ],
       "battery": 15000,
       "speed": 45,
       "power": 1.1,
@@ -64,7 +82,10 @@
       "discount": 20000,
       "description": "Perfect for beginners.",
       "byPromotion": true,
-      "category": ["Electric", "Affordable"],
+      "category": [
+        "Electric",
+        "Affordable"
+      ],
       "battery": 12000,
       "speed": 40,
       "power": 0.8,
@@ -78,7 +99,10 @@
       "discount": 89000,
       "description": "Premium scooter with dual motors.",
       "byPromotion": false,
-      "category": ["Electric", "High Power"],
+      "category": [
+        "Electric",
+        "High Power"
+      ],
       "battery": 30000,
       "speed": 80,
       "power": 2.5,
@@ -92,7 +116,10 @@
       "discount": 47000,
       "description": "Urban scooter with excellent range.",
       "byPromotion": false,
-      "category": ["Electric", "Urban"],
+      "category": [
+        "Electric",
+        "Urban"
+      ],
       "battery": 22000,
       "speed": 55,
       "power": 1.6,
@@ -106,10 +133,13 @@
       "discount": 65000,
       "description": "Powerful scooter for adventures.",
       "byPromotion": true,
-      "category": ["Electric", "Off-Road"],
+      "category": [
+        "Electric",
+        "Off-Road"
+      ],
       "battery": 27000,
       "speed": 70,
-      "power": 2.0,
+      "power": 2,
       "time": 6,
       "img": "scooter.png"
     },
@@ -120,7 +150,10 @@
       "discount": 35000,
       "description": "Stylish and modern.",
       "byPromotion": false,
-      "category": ["Electric", "Compact"],
+      "category": [
+        "Electric",
+        "Compact"
+      ],
       "battery": 17000,
       "speed": 45,
       "power": 1.3,
@@ -134,10 +167,13 @@
       "discount": 30000,
       "description": "Efficient and budget-friendly.",
       "byPromotion": true,
-      "category": ["Electric", "Affordable"],
+      "category": [
+        "Electric",
+        "Affordable"
+      ],
       "battery": 16000,
       "speed": 50,
-      "power": 1.0,
+      "power": 1,
       "time": 4,
       "img": "scooter.png"
     },
@@ -148,7 +184,10 @@
       "discount": 59000,
       "description": "Durable with great features.",
       "byPromotion": false,
-      "category": ["Electric", "Premium"],
+      "category": [
+        "Electric",
+        "Premium"
+      ],
       "battery": 21000,
       "speed": 60,
       "power": 1.7,
@@ -162,7 +201,10 @@
       "discount": 40000,
       "description": "Compact and powerful.",
       "byPromotion": false,
-      "category": ["Electric", "Urban"],
+      "category": [
+        "Electric",
+        "Urban"
+      ],
       "battery": 19000,
       "speed": 55,
       "power": 1.4,
@@ -176,10 +218,13 @@
       "discount": 27000,
       "description": "Affordable and durable.",
       "byPromotion": true,
-      "category": ["Electric", "Compact"],
+      "category": [
+        "Electric",
+        "Compact"
+      ],
       "battery": 14000,
       "speed": 40,
-      "power": 1.0,
+      "power": 1,
       "time": 3,
       "img": "scooter.png"
     },
@@ -190,7 +235,10 @@
       "discount": 45000,
       "description": "Stylish urban scooter.",
       "byPromotion": true,
-      "category": ["Electric", "Urban"],
+      "category": [
+        "Electric",
+        "Urban"
+      ],
       "battery": 23000,
       "speed": 50,
       "power": 1.8,
@@ -204,7 +252,10 @@
       "discount": 38000,
       "description": "Bright and colorful design.",
       "byPromotion": false,
-      "category": ["Electric", "Stylish"],
+      "category": [
+        "Electric",
+        "Stylish"
+      ],
       "battery": 20000,
       "speed": 48,
       "power": 1.2,
@@ -218,7 +269,10 @@
       "discount": 69000,
       "description": "High-performance scooter.",
       "byPromotion": false,
-      "category": ["Electric", "High Power"],
+      "category": [
+        "Electric",
+        "High Power"
+      ],
       "battery": 28000,
       "speed": 75,
       "power": 2.2,
@@ -232,7 +286,10 @@
       "discount": 30000,
       "description": "Compact and foldable.",
       "byPromotion": true,
-      "category": ["Electric", "Compact"],
+      "category": [
+        "Electric",
+        "Compact"
+      ],
       "battery": 15000,
       "speed": 42,
       "power": 1.1,
@@ -246,7 +303,10 @@
       "discount": 24000,
       "description": "Budget-friendly scooter.",
       "byPromotion": true,
-      "category": ["Electric", "Affordable"],
+      "category": [
+        "Electric",
+        "Affordable"
+      ],
       "battery": 13000,
       "speed": 38,
       "power": 0.9,
@@ -260,7 +320,10 @@
       "discount": 19990,
       "description": "Simple and reliable.",
       "byPromotion": false,
-      "category": ["Electric", "Compact"],
+      "category": [
+        "Electric",
+        "Compact"
+      ],
       "battery": 12000,
       "speed": 35,
       "power": 0.7,
