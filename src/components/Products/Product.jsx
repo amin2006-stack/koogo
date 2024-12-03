@@ -68,8 +68,8 @@ const Products = () => {
 
                                 <div className="products-col-infoTwo">
                                     <div className="products-col-infoTwo-left">
-                                        <p className="products-col-price">{item.price} грн</p>
-                                        <p className="products-col-discount">{item.discount} грн</p>
+                                        <p className="products-col-price">{item.price} ₽</p>
+                                        <p className="products-col-discount">{item.discount} ₽</p>
                                     </div>
                                     <div className="products-col-infoTwo-right">
                                         <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>

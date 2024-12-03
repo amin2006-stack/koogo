@@ -1,12 +1,8 @@
 import { RouterProvider } from "react-router-dom";
 import router from "./routing/Routing.jsx";
+import {Provider} from "react-redux";
+import store from "./store/store.js";
 import "./styles/App.scss";
-import HoverRating from "./Rating.jsx";
-import CustomizedAccordions from "./Accordion.jsx";
-
-import { Provider } from "react-redux";
-import store from "./store/store"
-
 
 function App() {
   return (
@@ -18,4 +14,5 @@ function App() {
   );
 
 }
-export default App
+
+export default App;

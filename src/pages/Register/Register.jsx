@@ -1,8 +1,9 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "./Register.scss";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { registerUser } from "../../store/user/user";
+import { Navigate } from "react-router-dom";
 
 const Register = () => {
   const {
@@ -11,6 +12,8 @@ const Register = () => {
     formState: { errors },
   } = useForm({ mode: "onBlur" });
 
+  const { user, status, error } = useSelector((s) => s.user);
+
   const dispatch = useDispatch();
 
   const submitForm = (data) => {
@@ -18,6 +21,10 @@ const Register = () => {
 
     dispatch(registerUser(other));
   };
+
+  if (status === "success") {
+    return <Navigate to="/" />;
+  }
 
   return (
     <div className="register">
@@ -29,7 +36,6 @@ const Register = () => {
         >
           <p>Регистрация</p>
           <div>
-            <p>Введите имя</p>
             <input
               {...register("firstName", { required: true, maxLength: 20 })}
               type="text"

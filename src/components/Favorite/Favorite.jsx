@@ -45,8 +45,8 @@ const Favorite = () => {
 
                                 <div className="products-col-infoTwo">
                                     <div className="products-col-infoTwo-left">
-                                        <p className="products-col-price">{item.price}</p>
-                                        <p className="products-col-discount">{item.discount}</p>
+                                        <p className="products-col-price">{item.price} ₽</p>
+                                        <p className="products-col-discount">{item.discount} ₽</p>
                                     </div>
                                     <div className="products-col-infoTwo-right">
                                         <img className="products-col-infoTwo-rightt" src={shoppingCart} alt=""/>
@@ -62,10 +62,7 @@ const Favorite = () => {
                                         </p>
                                     </div>
                                 </div>
-
-                                <button className='products-col-btn'>
-                                    <p className="products-col-btn-text">Купить в 1 клик</p>
-                                </button>
+                                
                             </div>
                         ))
                     }
